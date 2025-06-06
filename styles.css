@@ -2,3 +2,32 @@
 siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
+.download-section{
+  background-color: #94DDC6;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.qrs {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 2rem;
+}
+
+.qrs img {
+  width: 120px;
+}
+
+.instrucciones {
+  max-width: 300px;
+  align-items: center;
+}
+
+.instrucciones ol {
+  padding-left: 1rem;
+}
