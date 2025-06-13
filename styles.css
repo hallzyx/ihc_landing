@@ -3,6 +3,47 @@ siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
 
+/* Sección de video */
+.video_section {
+  background-color: #0e1a2b; /* Fondo */
+  padding: 60px 0;
+}
+
+.video_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video_text {
+  text-align: left;
+  color: #ffffff;
+  max-width: 500px;
+}
+
+.video_text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.video_text p {
+  font-size: 1.1rem;
+  color: #d0d0d0;
+}
+
+.video_wrapper iframe {
+  border-radius: 8px;
+  width: 80%;
+  height: 400px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
 .download-section{
   background-color: #94DDC6;
   padding: 2rem;
@@ -226,4 +267,3 @@ footer {
 .footer-social-icon-img {
     width: 32px;
 }
-
