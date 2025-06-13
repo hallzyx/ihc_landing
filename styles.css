@@ -3,6 +3,7 @@ siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
 
+
 /* Sección de video */
 .video_section {
   background-color: #0e1a2b; /* Fondo */
@@ -526,3 +527,4 @@ footer {
     font-size: 13px;
   }
 }
+
