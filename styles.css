@@ -3,6 +3,35 @@ siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
 
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0; 
+}
+
+.header-custom {
+    background-color: #162964;
+    color: #FFFFFF; 
+}
+
+.header-button {
+    background-color: #94DDC6; 
+    border-color: #4767B0;
+    color: #162964;
+    font-size: 24px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #FFFFFF;
+=======
+
 footer {
     font-family: 'Kanit', sans-serif;
     padding: 16px;
