@@ -2,10 +2,12 @@
 siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
+
 body {
     font-family: 'Kanit', sans-serif;
     margin: 0; 
 }
+
 .hero {
     display: flex;
     justify-content: center;
@@ -139,4 +141,58 @@ body {
             }
         }
     }
+
+.header-custom {
+    background-color: #162964;
+    color: #FFFFFF; 
+}
+
+.header-button {
+    background-color: #94DDC6; 
+    border-color: #4767B0;
+    color: #162964;
+    font-size: 24px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+footer {
+    font-family: 'Kanit', sans-serif;
+    padding: 16px;
+    background-color: #ffffff;
+    border-top: 4px solid #000000;
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer-subcontainer {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-social-icon {
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.footer-social-icon-img {
+    width: 32px;
 }
