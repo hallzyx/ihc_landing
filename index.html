@@ -29,8 +29,6 @@
         <meta name="twitter:image" content="https://url.com/images/twitter-image.jpg">
         <meta name="twitter:site" content="@DiaLearnApp">
 
-           
-        <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./styles.css">
@@ -38,30 +36,33 @@
     </head>
     <body>
 
-    <!--Header-->
-        <header class="header-custom shadow-md">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20 md:h-24">
-                <div class="flex-shrink-0">
-                    <a href="#" class="flex items-center">
-                        <img class="h-12 w-auto sm:h-14 md:h-16" src="logo.png" alt="Logo DiaLearn">
-                    </a>
-                </div>
+        <!--Header-->
+        <header class="header-custom">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#" class="logo-link">
+                    <img class="logo-img" src="logo.png" alt="Logo DiaLearn">
+                </a>
 
-                <nav class="hidden md:flex space-x-6 lg:space-x-8 items-center">
-                    <a href="#" class="nav-link hover:text-gray-300 transition duration-150 ease-in-out">Quienes somos</a>
-                    <a href="#" class="nav-link hover:text-gray-300 transition duration-150 ease-in-out">Precios</a>
-                    <a href="#" class="nav-link hover:text-gray-300 transition duration-150 ease-in-out">Convenios</a>
-                    <a href="#" class="nav-link hover:text-gray-300 transition duration-150 ease-in-out">Blog</a>
-                    <a href="#" class="header-button hover:bg-opacity-80 text-black py-2 px-5 rounded-2xl transition duration-150 ease-in-out">
+                <!-- Navegación de Escritorio -->
+                <nav class="main-nav">
+                    <a href="#" class="nav-link">Quienes somos</a>
+                    <a href="#" class="nav-link">Precios</a>
+                    <a href="#" class="nav-link">Convenios</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="header-button">
                         Descarga la App
                     </a>
                 </nav>
 
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+
+                <!-- Botón de Menú Móvil -->
+                <div class="mobile-menu-button-container">
+                    <button id="mobile-menu-button" aria-label="Abrir menú principal">
                         <span class="sr-only">Abrir menú principal</span>
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <svg class="icon-burger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
                     </button>
@@ -69,19 +70,22 @@
             </div>
         </div>
 
-        <div class="md:hidden hidden" id="mobile-menu">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#" class="nav-link block px-3 py-2 rounded-md hover:bg-gray-700 transition duration-150 ease-in-out">Quienes somos</a>
-                <a href="#" class="nav-link block px-3 py-2 rounded-md hover:bg-gray-700 transition duration-150 ease-in-out">Precios</a>
-                <a href="#" class="nav-link block px-3 py-2 rounded-md hover:bg-gray-700 transition duration-150 ease-in-out">Convenios</a>
-                <a href="#" class="nav-link block px-3 py-2 rounded-md hover:bg-gray-700 transition duration-150 ease-in-out">Blog</a>
-                <a href="#" class="w-full mt-2 header-button hover:bg-opacity-80 text-black py-2 px-4 rounded-lg transition duration-150 ease-in-out">
+
+        <!-- Menú Móvil -->
+        <div id="mobile-menu">
+            <div class="mobile-menu-links">
+                <a href="#" class="nav-link">Quienes somos</a>
+                <a href="#" class="nav-link">Precios</a>
+                <a href="#" class="nav-link">Convenios</a>
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="header-button">
                     Descarga la App
                 </a>
             </div>
         </div>
     </header>
-    <!--Header-->
+        <!--Header-->
+
 
         <!--Hero-->
         <section class="hero">

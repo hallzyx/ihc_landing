@@ -3,7 +3,11 @@ siguiendo la normativa de css: por ejm:
 header [miclase]:{}
 video_section [miclase] : {} **/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> 17eb908dddfd37b7f39e81efe5603b32ab123148
 
 /* Sección de video */
 .video_section {
@@ -528,4 +532,8 @@ footer {
     font-size: 13px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+
+>>>>>>> 17eb908dddfd37b7f39e81efe5603b32ab123148
